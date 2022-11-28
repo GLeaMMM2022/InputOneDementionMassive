@@ -11,7 +11,7 @@ namespace InputOneDementionMassive
         static void Main(string[] args)
         {
             //ввод элементов массива в строку
-            Console.WriteLine("Введите кол-во элементов массива");
+            Console.WriteLine("Введите кол-во элементов массива!!!!!");
             int n = Convert.ToInt32(Console.ReadLine());
             int[] mas = new int[n];
             string temp = Console.ReadLine();
