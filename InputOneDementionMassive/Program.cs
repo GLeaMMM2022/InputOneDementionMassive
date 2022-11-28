@@ -18,8 +18,6 @@ namespace InputOneDementionMassive
             for (int i = 0; i < n; i++)
             {
                 mas[i] = Convert.ToInt32(tempMas[i]);
-
-
             }
             foreach (var item in mas)
             {
