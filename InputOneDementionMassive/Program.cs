@@ -15,10 +15,12 @@ namespace InputOneDementionMassive
             int[] mas = new int[n];
             string temp = Console.ReadLine();
             string[] tempMas = temp.Split();
+            
             for (int i = 0; i < n; i++)
             {
                 mas[i] = Convert.ToInt32(tempMas[i]);
             }
+            
             foreach (var item in mas)
             {
                 Console.WriteLine(item);
